@@ -17,8 +17,15 @@ def append():
 
 append()
 
-    
 
+def insert():
+    
+    mylist2 = ["Complete Pyon", "Build To do List"];
+    print(mylist2);
+    
+    mylist2.insert(1, "learn Django");
+    print(mylist2);
+insert()
 
 
 
